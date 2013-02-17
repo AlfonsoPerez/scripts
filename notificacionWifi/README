@@ -1,0 +1,11 @@
+This is a simple script in Python I've coded to watch for new users connected to my wlan.
+
+Note that I've made this to work just on my actual router Firmware: NetGear CG3100D with V5.5.4.mp2_R09b
+
+I guess it will work with different firmware and the same router, for different routers the RegExp will be different.
+Note as well that my subnet is hardcoded.
+
+Requeriments:
+
+Linux -> notify-send
+Python3?
