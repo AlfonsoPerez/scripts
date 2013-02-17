@@ -45,7 +45,7 @@ class WifiWatcherDaemon(Daemon):
                         functions.notification(summary, note)
                         userlist.remove(u)
                                                    
-        sleep(wait_time)
+            sleep(wait_time)
         
   
 def main():
